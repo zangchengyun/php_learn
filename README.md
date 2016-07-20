@@ -5,8 +5,8 @@
 <p>章节说明</p>
 <p></p>
 <p>第一章：字符串</p>
-<p>·文件：string/string1.php</p>
-<p>·原书内容：</p>
-<p>··strpos()方法</p>
-<p>··substr()方法</p>
-<p>··substr_replace()方法</p>
+<p> - 文件：string/string1.php</p>
+<p> - 原书内容：</p>
+<p> --- strpos()方法</p>
+<p> --- substr()方法</p>
+<p> --- substr_replace()方法</p>
