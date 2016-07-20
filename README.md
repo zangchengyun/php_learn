@@ -4,6 +4,5 @@ PHP经典实例练习内容
 
 章节说明
 
-章节                    文件
-第一章  字符串          string.php
+第一章：字符串 string.php
 
