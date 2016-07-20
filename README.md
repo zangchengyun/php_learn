@@ -1,9 +1,9 @@
 # php_learn
-<p><strong>PHP经典实例练习内容</strong></p>
-<p>基于PHP5.5以上版本进行练习，随着学习的深入，部分内容进行了拓展</p>
+<p><strong>PHP学习记录</strong></p>
+<p>以《PHP经典实例》内容为模板进行填充，PHP5.5以上版本进行练习，内容持续扩展中...</p>
 <p>
-章节说明<br/>
-第一章：字符串<br/>
+目录<br/>
+第一部分：字符串<br/>
 文件：string/string1.php<br/>
 …… strpos()方法<br/>
 …… substr()方法<br/>
@@ -11,4 +11,5 @@
 <br/>
 文件：string/string2.php<br/>
 …… 字符串逐字节处理<br/>
+…… lookAndSay循环<br/>
 </p>
