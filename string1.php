@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <!--
-Auther:chengyun
+Author:chengyun
 Email:573125546@qq.com
+Github：https://github.com/zangchengyun/php_learn
 -->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>string练习</title>
     </head>
-    <body>
+    <body style="font-size: 12px;">
         <?php
         
         //【判断一个字符串中是否包含另一个字符串】
@@ -138,10 +139,30 @@ Email:573125546@qq.com
         print substr_replace('My pet is a blue dog', 'red', 12,4);
         echo "<br><br>";
         
+        echo '<hr>';
+        //如果$start是负值，则新字符串替换的位置从$old_substring的结尾开始向后截取
+        print substr_replace('My pet is a blue dog', 'fish', -8);
+        echo "<br><br>";
+        print substr_replace('My pet is a blue dog', 'red', -8,4);
+        echo "<br><br>";
         
-        //如果$start是负值
+        //如果$start 和 $length 都是0，新的字符串将会插入到$old_string的开始位置
+        print substr_replace('My pet is a blue dog', 'Title:', 0,0);
+        echo "<br><br>";
         
-
+        
+        //排版时，由于空间不够，文章如果内容无法完全显示，需要用...代替，可以用以下方法
+        $text = 'php经典实例主要包括了以下章节，第一章：字符串处理';
+        $text2 = 'My pet is a blue dog';
+        
+        //注意，有些时候substr_replace在输出中文时会有乱码
+        print substr_replace($text, '...', 5);
+        echo "<br><br>";
+        print substr_replace($text2,'...',10);
+        
+        
+     
+        
         ?>
     </body>
 </html>
