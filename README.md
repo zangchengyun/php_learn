@@ -4,16 +4,29 @@
 <p>
 目录<br/>
 第一部分：字符串<br/>
-文件：string/string1.php<br/>
+文件：/string/string1.php<br/>
 …… strpos()  判断一个字符串是否包含另外一个字符串，并返回首歌匹配到的字符串的起始位置<br/>
 …… substr()  从字符串的指定位置向后截取，或指定截取一定长度<br/>
 …… substr_replace()  从字符串指定位置开始替换新的字符串，或者指定替换指定长度的字符<br/>
 <br/>
-文件：string/string2.php<br/>
+文件：/string/string2.php<br/>
 …… 字符串逐字节处理  for循环处理字符串中的每个字符<br/>
 …… lookAndSay循环<br/>
-…… strrev 按字节翻转字符串字符<br/>
+…… strrev() 按字节翻转字符串字符<br/>
 …… explode()  字符串截断，生成数组<br/>
 …… array_reverse()  数组元素翻转<br/>
 …… implode()  字符串重建<br/>
+<br/>
+文件：/string/string3.php<br/>
+…… ucfirst() 字符串首字符大写<br/>
+…… ucwords() 字符串每个单词首字母大写<br/>
+…… strtoupper() 全部字符大写<br/>
+…… strtolower()  全部字符小写<br/>
+…… ltrim() 删除字符串开始处的空白符<br/>
+…… rtrim() 删除字符串结尾处的空白符<br/>
+…… trim() 同时删除字符串开始和结尾处的空白符<br/>
+…… 导出文件到CSV<br/>
+<br/>
+第二部分：数字<br/>
+文件：/number/number1.php<br/>
 </p>
