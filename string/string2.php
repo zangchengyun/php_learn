@@ -110,10 +110,42 @@ Github：https://github.com/zangchengyun/php_learn
         //第一次传入的参数是$s=1，然后进去做变量运算
         //把每次返回的值赋值给$s,并代入第一个方法循环重新运算
         
-         echo '<hr/>';
-         //按字或者字节来翻转字符串
-         //43页
+        echo '<hr/>';
+        //【按字或者字节来翻转字符串】
+        //方案：strrev()方法
+         
+        //按字节翻转
+        print strrev('This is not a palindrome.');
         
+        
+        
+        echo '<br><br>';
+        //原书是按字翻转，准确说是按单词翻转，以空格为区分
+        //定义要翻转的字符串
+        $s = "Once upon a time there was a trutle.";
+        
+        //以空格隔断字符串,注意括号中间是空格，隔断以后生成的是数组
+        $words = explode(' ', $s);
+        
+        //打印数组元素
+        var_dump($words);
+        
+        //翻转数组内的数组元素，并重新赋值给变量$words，形成新的数组
+        $words = array_reverse($words);
+        
+        //打印新数组元素
+        var_dump($words);
+        
+        //以空格重建数组元素，注意引号中间有一个空格
+        $s = implode(' ', $words);
+        
+        //打印输出最终翻转的结果
+        print $s;
+         
+        
+        echo '<br><br>';
+        //简化后的代码,注意$s已经是翻转后的结果了,再次翻转就和原来的字符串内容一样
+        print $reversed_s = implode(' ',array_reverse(explode(' ', $s)));
         
         
         ?>
