@@ -42,9 +42,7 @@
 …… localeconv() 本地化全局变量<br/>
 …… cos() sin() tan() atan() 三角函数<br/>
 …… bindec() octdec() hexdec() hexdec decbin decoct 进制转换<br/>
-…… <br/>
-
-
+<br/>
 第三部分：日期和时间<br/>
 文件：/datetime/datetime1.php<br/>
 
