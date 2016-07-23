@@ -29,4 +29,24 @@
 <br/>
 第二部分：数字<br/>
 文件：/number/number1.php<br/>
+…… is_numeric() 判断是否是数字<br/>
+…… abs() 取绝对值<br/>
+…… round() 四舍五入取整<br/>
+…… ceil() 向上取整<br/>
+…… floor() 向下取整<br/>
+…… range() 连续赋值操作<br/>
+…… mt_rand() 和 rand() 随机数<br/>
+…… log() log10() 对数<br/>
+…… exp() pow() 幂运算<br/>
+…… number_format() 千分符格式化<br/>
+…… localeconv() 本地化全局变量<br/>
+…… cos() sin() tan() atan() 三角函数<br/>
+…… bindec() octdec() hexdec() hexdec decbin decoct 进制转换<br/>
+…… <br/>
+
+
+第三部分：日期和时间<br/>
+文件：/datetime/datetime1.php<br/>
+
+…… <br/>
 </p>
