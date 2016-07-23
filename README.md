@@ -45,6 +45,17 @@
 <br/>
 第三部分：日期和时间<br/>
 文件：/datetime/datetime1.php<br/>
+…… strftime()  date() 取得日期和时间 <br/>
+…… getdate() localtime()当前时间<br/>
+…… mktime() 获得基于GMT的特定纪元时间戳<br/>
+…… gmmktime() GMT时间戳<br/>
+…… checkdate() 检查是否是日期<br/>
+…… strtotime() 从字符串中格式化日期<br/>
+…… strtotime() 微秒<br/>
+<br/>
+第四部分：数组<br/>
+文件：/array/array1.php<br/>
 
 …… <br/>
+
 </p>
