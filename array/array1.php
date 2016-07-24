@@ -150,7 +150,7 @@ Github：https://github.com/zangchengyun/php_learn
         }
         
         
-        //用isset()检查一个值部位NULL的键
+        //用isset()检查一个值不为NULL的键
         //$fruits没有索引为2的键，所以输出空白
         if(isset($fruits[2])){
             echo "已经设置";
@@ -176,9 +176,32 @@ Github：https://github.com/zangchengyun/php_learn
         $fruits = array('yello' => 'bananas','red' => 'apple');  
         sort($fruits);
         var_dump($fruits);
+        
+        
+        //对多个数组进行排序
+        array_multisort($arr1,$arr2);
+        
+        //返回包含唯一元素的新数组
+        $unique = array_unique($arr2);
+        
+        //数组遍历还可以用array_walk()
+        //暂不举例
+        
+        //计算并集、交集、差集
+        
+        //并集，先合并，再取出唯一元素
+        $union = array_unique(array_merge($arr1,$arr2));
+        
+        //交集
+        $intersection = array_intersect($arr2, $arr1);
+        
+        //差集
+        $difference = array_diff($arr2, $arr1);
+        
+        
 
-        //书签 168页
-   
+        
+        
         
 
         

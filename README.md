@@ -55,7 +55,26 @@
 <br/>
 第四部分：数组<br/>
 文件：/array/array1.php<br/>
-//书签 168页
+…… 数组赋值方式<br/>
+…… 数组遍历方式<br/>
+…… unset() 删除数组元素<br/>
+…… array_splice() 保留一定数量的数组索引<br/>
+…… array_merge() 数组合并<br/>
+…… join() 数组转换为字符串<br/>
+…… array_key_exists() 检查数组中是否包含某个索引(键)<br/>
+…… isset() 检查一个值不为空的键<br/>
+…… in_array() 检查数组中是否包含某个元素(值)<br/>
+…… array_search() 确定值在数组中的位置<br/>
+…… sort() 数组排序<br/>
+…… array_multisort() 同时对多个数组进行排序<br/>
+…… array_unique() 返回一个包含唯一元素的新数组<br/>
+…… 数组并集（先合并，后取唯一），交集array_intersect(),差集array_diff()<br/>
+<br/>
+第五部分：数组<br/>
+文件：/variable/variable1.php<br/>
+
+
+
 …… <br/>
 
 </p>
