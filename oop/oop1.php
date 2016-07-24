@@ -7,7 +7,7 @@ Github：https://github.com/zangchengyun/php_learn
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>class练习1</title>
+        <title>OOP练习1</title>
     </head>
     <body style="font-size: 12px;">
         <?php

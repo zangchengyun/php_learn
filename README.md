@@ -86,7 +86,7 @@
 …… func_num_args 取得传入参数变量的个数<br/>
 <br/>
 第七部分：类和对象<br/>
-文件：/class/class1.php<br/>
+文件：/oop/oop1.php<br/>
 
 
 ……<br/>
