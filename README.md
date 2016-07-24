@@ -76,13 +76,18 @@
 …… isset() 变量检查<br/>
 …… unset() 变量销毁<br/>
 …… = 与 == 区别<br/>
-…… <br/>
+<br/>
 第六部分：函数<br/>
 文件：/function/function1.php<br/>
+…… 函数定义与调用<br/>
+…… 参数传递<br/>
+…… 可以接受个数可变的参数的函数<br/>
+…… func_get_arg() 取得传入参数的变量<br/>
+…… func_num_args 取得传入参数变量的个数<br/>
+<br/>
+第七部分：类和对象<br/>
+文件：/class/class1.php<br/>
 
 
-
-
-…… <br/>
-
+……<br/>
 </p>
