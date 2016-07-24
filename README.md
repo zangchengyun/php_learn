@@ -72,6 +72,14 @@
 <br/>
 第五部分：数组<br/>
 文件：/variable/variable1.php<br/>
+…… 变量赋值<br/>
+…… isset() 变量检查<br/>
+…… unset() 变量销毁<br/>
+…… = 与 == 区别<br/>
+…… <br/>
+第六部分：函数<br/>
+文件：/function/function1.php<br/>
+
 
 
 
